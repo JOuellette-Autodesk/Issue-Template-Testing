@@ -26,11 +26,10 @@ body:
         - 2022.x.x
         - 2021.x.x
         - 2020.x.x
-
     validations:
       required: true
   - type: dropdown
-    id: IFCToolversion
+    id: IFCAddonversion
     attributes:
       label: IFC for Revit Addon
       description: What version of the IFC for Revit addon are you using?
@@ -46,6 +45,23 @@ body:
         - 22.5.2.0
         - 22.5.1.0
         - 22.5.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: Windowsversion
+    attributes:
+      label: Windows Version
+      description: What version of Windows are you using?
+      options:
+        - 11 22H2
+        - 11 21H2
+        - 10 22H2
+        - 10 21H2
+        - 10 21H1
+        - 10 20H2
+        - 10 2004
+    validations:
+      required: true      
   - type: checkboxes
     id: terms
     attributes:
