@@ -10,7 +10,6 @@ body:
   - type: textarea
     id: Reporttext
     attributes:
-      label: 
       description: What did you expect to happen and what was the propblem?
       placeholder: Problem description including images and zipped RVT/IFC files
       value: "... "
