@@ -1,7 +1,7 @@
 name: Inquiry
 description: File a Inquiry
 title: "INQ: "
-labels: ["triage"]
+labels: ["inquiry", "triage"]
 body:
   - type: markdown
     attributes:

@@ -1,7 +1,7 @@
 name: Enhancement Request
 description: File an Enhancement Request
 title: "ENH: "
-labels: ["triage"]
+labels: ["enhancement", "triage"]
 body:
   - type: markdown
     attributes:

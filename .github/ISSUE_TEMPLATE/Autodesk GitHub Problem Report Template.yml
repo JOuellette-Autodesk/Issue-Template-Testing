@@ -1,7 +1,7 @@
 name: Problem Report
 description: File a Problem Report
 title: "PR: "
-labels: ["triage"]
+labels: ["problem", "triage"]
 body:
   - type: markdown
     attributes:
