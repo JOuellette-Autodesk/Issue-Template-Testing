@@ -6,11 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        An Inquiry is a question about IFC functionality and/or UI/UX (but not a Problem Report or an Enhancement Request), where the user needs further assistance or guidance in its usage.
+        An Inquiry is a question about IFC functionality and/or UI/UX (but not a Problem Report or an Enhancement Request), where the user needs further assistance or guidance in its usage. Please describe the inquiry (may include images) and post the smallest possible sample files (RVT and IFC), zipped. If that is not possible, please email files to angel.velez@autodesk.com
   - type: textarea
     id: Inquirytext
     attributes:
-      label: Please describe the inquiry (may include images) and post the smallest possible sample files (RVT and IFC), zipped. If that is not possible, please email files to angel.velez@autodesk.com
+      label: 
       description: What are you trying to accomplish?
       placeholder: Inquiry description including images and zipped RVT/IFC files
       value: "... "
@@ -34,7 +34,6 @@ body:
       label: IFC for Revit Addon
       description: What version of the IFC for Revit addon are you using?
       options:
-        - Internal default
         - 23.2.5.0
         - 23.2.4.0
         - 23.2.3.0

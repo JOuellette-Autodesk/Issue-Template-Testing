@@ -6,11 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        A Problem Report is a "bug", error, or issue found during the use of any aspect of the IFC functionality.
+        A Problem Report is a "bug", error, or issue found during the use of any aspect of the IFC functionality. Please describe the issue (may include images) and post the smallest possible sample files (RVT and IFC), zipped. If that is not possible, please email files to angel.velez@autodesk.com
   - type: textarea
     id: Reporttext
     attributes:
-      label: Please describe the issue (may include images) and post the smallest possible sample files (RVT and IFC), zipped. If that is not possible, please email files to angel.velez@autodesk.com
+      label: 
       description: What did you expect to happen and what was the propblem?
       placeholder: Problem description including images and zipped RVT/IFC files
       value: "... "
@@ -33,8 +33,7 @@ body:
     attributes:
       label: IFC for Revit Addon
       description: What version of the IFC for Revit addon are you using?
-      options:
-        - Internal default      
+      options: 
         - 23.2.5.0
         - 23.2.4.0
         - 23.2.3.0
