@@ -1,5 +1,5 @@
 name: Inquiry
-description: File a Inquiry
+description: File an Inquiry
 title: "INQ: "
 labels: ["inquiry", "triage"]
 body:
@@ -10,7 +10,7 @@ body:
   - type: textarea
     id: Inquirytext
     attributes:
-      label: 
+      label: Inquiry description:
       description: What are you trying to accomplish?
       placeholder: Inquiry description including images and zipped RVT/IFC files
       value: "... "
@@ -19,7 +19,7 @@ body:
   - type: dropdown
     id: Revitversion
     attributes:
-      label: Revit Version
+      label: Revit Version:
       description: What version of Revit are you using?
       options:
         - 2023.x.x
@@ -31,7 +31,7 @@ body:
   - type: dropdown
     id: IFCAddonversion
     attributes:
-      label: IFC for Revit Addon
+      label: IFC for Revit Addon Version:
       description: What version of the IFC for Revit addon are you using?
       options:
         - 23.2.5.0
@@ -50,7 +50,7 @@ body:
   - type: dropdown
     id: Windowsversion
     attributes:
-      label: Windows Version
+      label: Windows Version:
       description: What version of Windows are you using?
       options:
         - 11 22H2
