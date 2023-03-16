@@ -1,0 +1,69 @@
+name: Enhancement Request
+description: File an Enhancement Request
+title: "ENH: "
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An Enhancement Request is a proposed change to improve functionality and/or user interface (UI) and/or experience (UX).
+  - type: textarea
+    id: Enhancementtext
+    attributes:
+      label: Please describe the request (may include images) and post the smallest possible sample files (RVT and IFC), zipped. If that is not possible, please email files to angel.velez@autodesk.com
+      description: What would you prefer to happen?
+      placeholder: Enhancement description including images and zipped RVT/IFC files
+      value: "... "
+    validations:
+      required: true
+  - type: dropdown
+    id: Revitversion
+    attributes:
+      label: Revit Version
+      description: What version of Revit are you using?
+      options:
+        - 2023.x.x
+        - 2022.x.x
+        - 2021.x.x
+        - 2020.x.x
+    validations:
+      required: true
+  - type: dropdown
+    id: IFCAddonversion
+    attributes:
+      label: IFC for Revit Addon
+      description: What version of the IFC for Revit addon are you using?
+      options:
+        - Internal default      
+        - 23.2.5.0
+        - 23.2.4.0
+        - 23.2.3.0
+        - 23.1.1.0
+        - 23.1.0.0
+        - 22.6.2.0
+        - 22.6.1.0
+        - 22.6.0.0
+        - 22.5.2.0
+        - 22.5.1.0
+        - 22.5.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: Windowsversion
+    attributes:
+      label: Windows Version
+      description: What version of Windows are you using?
+      options:
+        - 11 22H2
+        - 11 21H2
+        - 10 22H2
+        - 10 21H2
+        - 10 21H1
+        - 10 20H2
+        - 10 2004
+    validations:
+      required: true      
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Enhancement Request.
