@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        A Problem Report is a "bug", error, or issue found during the use of any aspect of the IFC functionality. Please describe the issue (may include images) and post the smallest possible sample files (RVT and IFC), zipped. If that is not possible, please email files to angel.velez@autodesk.com
+        A Problem Report is a "bug", error, or issue found during the use of any aspect of the IFC functionality. Please describe the issue, including steps to recreate the error (may include images), and post the smallest possible sample files (RVT and IFC), zipped. If you cannot post a file to this public forum, please email files to ifc-github-support@autodesk.com. They will be used internally only and kept confidential.
   - type: textarea
     id: Reporttext
     attributes:
@@ -22,10 +22,12 @@ body:
       label: Revit Version
       description: What version of Revit are you using?
       options:
-        - 2023.x.x
-        - 2022.x.x
-        - 2021.x.x
-        - 2020.x.x
+        - 2024.0.x
+        - 2023.1.x
+        - 2023.0.x
+        - 2022.1.x
+        - 2022.0.x
+        - pre 2022
     validations:
       required: true
   - type: dropdown
@@ -45,6 +47,8 @@ body:
         - 22.5.2.0
         - 22.5.1.0
         - 22.5.0.0
+        - pre 2022
+        - Other / None
     validations:
       required: true
   - type: dropdown
